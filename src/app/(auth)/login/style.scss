@@ -1,0 +1,22 @@
+.main-wrap-login {
+  h1 {
+    font-weight: 600;
+    font-size: 28px;
+  }
+}
+
+.login-btn {
+  background-color: #ff8a00;
+  color: #fff;
+}
+.inp-login-form {
+  background-color: #fff;
+  border: 1px solid #d5d7da;
+  &:focus {
+    background: #fff !important;
+    outline: none;
+  }
+}
+input:-internal-autofill-selected {
+  background: #fff !important;
+}

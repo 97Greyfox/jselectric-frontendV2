@@ -1,0 +1,18 @@
+.cus-sidebar-style {
+  background: #363853 !important;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+.sidebar-cus-link {
+  color: #bababa;
+  transition: 0.3s ease-in;
+  &:hover {
+    color: #ff8a00;
+  }
+}
+.active-side-link {
+  color: #ff8a00;
+  span {
+    color: #ff8a00;
+  }
+}
